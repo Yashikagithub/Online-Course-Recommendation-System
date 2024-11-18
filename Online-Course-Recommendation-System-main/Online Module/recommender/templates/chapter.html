@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<br>
+<h1 id="coname">{{course.name}}</h1>
+<br>
+<br>
+<h2 id="cname"><b>{{chapter.name}}</b></h2>
+
+<br>
+<iframe class="video" width="560" height="315" src="{{chapter.video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{% endblock %}
